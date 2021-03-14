@@ -1,4 +1,126 @@
 [System] [Time 0.00 / 0.00 sec] Engine started.
-[System] [Time 0.16 / 0.16 sec] Bearer token received.
-[System] [Time 0.13 / 0.29 sec] Entity catalogs created.
-[System] [Time 0.00 / 0.29 sec] Entity catalogs.vendors created.
+[System] [Time 0.15 / 0.15 sec] Bearer token received.
+[System] [Time 0.16 / 0.31 sec] Entity catalogs created.
+[Trace] [Time 0.00 / 0.31 sec] Entity catalogs.vendors _init_defaults.
+[Trace] [Time 0.00 / 0.31 sec] Entity catalogs.vendors _init_custom.
+[System] [Time 0.00 / 0.31 sec] Entity catalogs.vendors created.
+[Trace] [Time 0.00 / 0.31 sec] Entity catalogs.categories _init_defaults.
+[Trace] [Time 0.00 / 0.31 sec] Entity catalogs.categories _init_custom.
+[System] [Time 0.00 / 0.32 sec] Entity catalogs.categories created.
+[Trace] [Time 0.00 / 0.32 sec] Entity catalogs.suppliers _init_defaults.
+[Trace] [Time 0.00 / 0.32 sec] Entity catalogs.suppliers _init_custom.
+[System] [Time 0.00 / 0.32 sec] Entity catalogs.suppliers created.
+[Trace] [Time 0.00 / 0.32 sec] Entity catalogs.pricing_profiles _init_defaults.
+[Trace] [Time 0.00 / 0.32 sec] Entity catalogs.pricing_profiles _init_custom.
+[System] [Time 0.00 / 0.32 sec] Entity catalogs.pricing_profiles created.
+[Saving] [Time 1.00 / 1.32 sec] File D:\DATA\JSON\catalog\catalogs.json is saved.
+[Trace] [Time 0.00 / 1.32 sec] Entity catalogs.vendors store.
+[Trace] [Time 0.00 / 1.32 sec] Entity catalogs.vendors store_catalog.
+[Trace] [Time 0.00 / 1.32 sec] Entity catalogs.vendors set_parameters.
+[Trace] [Time 0.00 / 1.32 sec] Entity catalogs.vendors request.
+[Trace] [Time 0.16 / 1.48 sec] Entity catalogs.vendors output.
+[Saving] [Time 1.00 / 2.48 sec] File D:\DATA\JSON\catalog\29\vendors.json is saved.
+[Trace] [Time 0.00 / 2.48 sec] Entity catalogs.vendors store_catalog.
+[Trace] [Time 0.00 / 2.48 sec] Entity catalogs.vendors set_parameters.
+[Trace] [Time 0.00 / 2.48 sec] Entity catalogs.vendors request.
+[Trace] [Time 0.46 / 2.94 sec] Entity catalogs.vendors output.
+[Saving] [Time 1.00 / 3.94 sec] File D:\DATA\JSON\catalog\27\vendors.json is saved.
+[Trace] [Time 0.00 / 3.94 sec] Entity catalogs.vendors store_catalog.
+[Trace] [Time 0.00 / 3.94 sec] Entity catalogs.vendors set_parameters.
+[Trace] [Time 0.00 / 3.94 sec] Entity catalogs.vendors request.
+[Trace] [Time 0.16 / 4.11 sec] Entity catalogs.vendors output.
+[Saving] [Time 1.00 / 5.11 sec] File D:\DATA\JSON\catalog\26\vendors.json is saved.
+[Trace] [Time 0.00 / 5.11 sec] Entity catalogs.vendors store_catalog.
+[Trace] [Time 0.00 / 5.11 sec] Entity catalogs.vendors set_parameters.
+[Trace] [Time 0.00 / 5.11 sec] Entity catalogs.vendors request.
+[Trace] [Time 0.74 / 5.85 sec] Entity catalogs.vendors output.
+[Saving] [Time 1.02 / 6.87 sec] File D:\DATA\JSON\catalog\2\vendors.json is saved.
+[Trace] [Time 0.00 / 6.87 sec] Entity catalogs.vendors store_catalog.
+[Trace] [Time 0.00 / 6.87 sec] Entity catalogs.vendors set_parameters.
+[Trace] [Time 0.00 / 6.87 sec] Entity catalogs.vendors request.
+[Trace] [Time 0.54 / 7.41 sec] Entity catalogs.vendors request.
+[Trace] [Time 0.25 / 7.66 sec] Entity catalogs.vendors output.
+[Saving] [Time 1.02 / 8.69 sec] File D:\DATA\JSON\catalog\1\vendors.json is saved.
+[System] [Time 0.00 / 8.69 sec] Saving entity vendors is completed.
+
+[Trace] [Time 0.00 / 8.69 sec] Entity catalogs.categories store.
+[Trace] [Time 0.00 / 8.69 sec] Entity catalogs.categories store_catalog.
+[Trace] [Time 0.00 / 8.69 sec] Entity catalogs.categories set_parameters.
+[Trace] [Time 0.00 / 8.69 sec] Entity catalogs.categories request.
+[Trace] [Time 0.15 / 8.84 sec] Entity catalogs.categories output.
+[Saving] [Time 1.02 / 9.86 sec] File D:\DATA\JSON\catalog\29\categories.json is saved.
+[Trace] [Time 0.00 / 9.86 sec] Entity catalogs.categories store_catalog.
+[Trace] [Time 0.00 / 9.86 sec] Entity catalogs.categories set_parameters.
+[Trace] [Time 0.00 / 9.86 sec] Entity catalogs.categories request.
+[Trace] [Time 0.16 / 10.02 sec] Entity catalogs.categories output.
+[Saving] [Time 1.02 / 11.04 sec] File D:\DATA\JSON\catalog\27\categories.json is saved.
+[Trace] [Time 0.00 / 11.04 sec] Entity catalogs.categories store_catalog.
+[Trace] [Time 0.00 / 11.04 sec] Entity catalogs.categories set_parameters.
+[Trace] [Time 0.00 / 11.04 sec] Entity catalogs.categories request.
+[Trace] [Time 0.18 / 11.22 sec] Entity catalogs.categories output.
+[Saving] [Time 1.00 / 12.22 sec] File D:\DATA\JSON\catalog\26\categories.json is saved.
+[Trace] [Time 0.00 / 12.22 sec] Entity catalogs.categories store_catalog.
+[Trace] [Time 0.00 / 12.22 sec] Entity catalogs.categories set_parameters.
+[Trace] [Time 0.00 / 12.22 sec] Entity catalogs.categories request.
+[Trace] [Time 0.63 / 12.84 sec] Entity catalogs.categories output.
+[Saving] [Time 1.02 / 13.86 sec] File D:\DATA\JSON\catalog\2\categories.json is saved.
+[Trace] [Time 0.00 / 13.86 sec] Entity catalogs.categories store_catalog.
+[Trace] [Time 0.00 / 13.86 sec] Entity catalogs.categories set_parameters.
+[Trace] [Time 0.00 / 13.86 sec] Entity catalogs.categories request.
+[Trace] [Time 0.20 / 14.06 sec] Entity catalogs.categories output.
+[Saving] [Time 1.00 / 15.06 sec] File D:\DATA\JSON\catalog\1\categories.json is saved.
+[System] [Time 0.00 / 15.06 sec] Saving entity categories is completed.
+
+[Trace] [Time 0.00 / 15.06 sec] Entity catalogs.suppliers store.
+[Trace] [Time 0.00 / 15.06 sec] Entity catalogs.suppliers store_catalog.
+[Trace] [Time 0.00 / 15.06 sec] Entity catalogs.suppliers set_parameters.
+[Trace] [Time 0.00 / 15.06 sec] Entity catalogs.suppliers request.
+[Trace] [Time 0.14 / 15.20 sec] Entity catalogs.suppliers output.
+[Saving] [Time 1.00 / 16.20 sec] File D:\DATA\JSON\catalog\29\suppliers.json is saved.
+[Trace] [Time 0.00 / 16.20 sec] Entity catalogs.suppliers store_catalog.
+[Trace] [Time 0.00 / 16.20 sec] Entity catalogs.suppliers set_parameters.
+[Trace] [Time 0.00 / 16.20 sec] Entity catalogs.suppliers request.
+[Trace] [Time 0.13 / 16.33 sec] Entity catalogs.suppliers output.
+[Saving] [Time 1.00 / 17.33 sec] File D:\DATA\JSON\catalog\27\suppliers.json is saved.
+[Trace] [Time 0.00 / 17.33 sec] Entity catalogs.suppliers store_catalog.
+[Trace] [Time 0.00 / 17.33 sec] Entity catalogs.suppliers set_parameters.
+[Trace] [Time 0.00 / 17.33 sec] Entity catalogs.suppliers request.
+[Trace] [Time 0.15 / 17.48 sec] Entity catalogs.suppliers output.
+[Saving] [Time 1.00 / 18.49 sec] File D:\DATA\JSON\catalog\26\suppliers.json is saved.
+[Trace] [Time 0.00 / 18.49 sec] Entity catalogs.suppliers store_catalog.
+[Trace] [Time 0.00 / 18.49 sec] Entity catalogs.suppliers set_parameters.
+[Trace] [Time 0.00 / 18.49 sec] Entity catalogs.suppliers request.
+[Trace] [Time 0.26 / 18.75 sec] Entity catalogs.suppliers output.
+[Saving] [Time 1.00 / 19.75 sec] File D:\DATA\JSON\catalog\2\suppliers.json is saved.
+[Trace] [Time 0.00 / 19.75 sec] Entity catalogs.suppliers store_catalog.
+[Trace] [Time 0.00 / 19.75 sec] Entity catalogs.suppliers set_parameters.
+[Trace] [Time 0.00 / 19.75 sec] Entity catalogs.suppliers request.
+[Trace] [Time 0.15 / 19.90 sec] Entity catalogs.suppliers output.
+[Saving] [Time 1.02 / 20.92 sec] File D:\DATA\JSON\catalog\1\suppliers.json is saved.
+[System] [Time 0.00 / 20.92 sec] Saving entity suppliers is completed.
+
+[Trace] [Time 0.00 / 20.92 sec] Entity catalogs.pricing_profiles store.
+[Trace] [Time 0.00 / 20.92 sec] Entity catalogs.pricing_profiles store_catalog.
+[Trace] [Time 0.00 / 20.92 sec] Entity catalogs.pricing_profiles set_parameters.
+[Trace] [Time 0.00 / 20.92 sec] Entity catalogs.pricing_profiles request.
+[Trace] [Time 0.13 / 21.05 sec] Entity catalogs.pricing_profiles output.
+[Trace] [Time 1.00 / 22.05 sec] Entity catalogs.pricing_profiles store_catalog.
+[Trace] [Time 0.00 / 22.05 sec] Entity catalogs.pricing_profiles set_parameters.
+[Trace] [Time 0.00 / 22.05 sec] Entity catalogs.pricing_profiles request.
+[Trace] [Time 0.13 / 22.18 sec] Entity catalogs.pricing_profiles output.
+[Trace] [Time 1.00 / 23.19 sec] Entity catalogs.pricing_profiles store_catalog.
+[Trace] [Time 0.00 / 23.19 sec] Entity catalogs.pricing_profiles set_parameters.
+[Trace] [Time 0.00 / 23.19 sec] Entity catalogs.pricing_profiles request.
+[Trace] [Time 0.15 / 23.33 sec] Entity catalogs.pricing_profiles output.
+[Trace] [Time 1.00 / 24.34 sec] Entity catalogs.pricing_profiles store_catalog.
+[Trace] [Time 0.00 / 24.34 sec] Entity catalogs.pricing_profiles set_parameters.
+[Trace] [Time 0.00 / 24.34 sec] Entity catalogs.pricing_profiles request.
+[Trace] [Time 0.14 / 24.48 sec] Entity catalogs.pricing_profiles output.
+[Saving] [Time 1.00 / 25.48 sec] File D:\DATA\JSON\catalog\2\pricing_profiles.json is saved.
+[Trace] [Time 0.00 / 25.48 sec] Entity catalogs.pricing_profiles store_catalog.
+[Trace] [Time 0.00 / 25.48 sec] Entity catalogs.pricing_profiles set_parameters.
+[Trace] [Time 0.00 / 25.48 sec] Entity catalogs.pricing_profiles request.
+[Trace] [Time 0.16 / 25.64 sec] Entity catalogs.pricing_profiles output.
+[Saving] [Time 1.00 / 26.64 sec] File D:\DATA\JSON\catalog\1\pricing_profiles.json is saved.
+[System] [Time 0.00 / 26.64 sec] Saving entity pricing_profiles is completed.
+

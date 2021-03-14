@@ -1,8 +1,7 @@
-from core.outputs import trace_full
 import time
 
 class Debug(object):
-    def __init__(self, output = trace_full):
+    def __init__(self, output = print):
         self.debug_start_time = self.debug_time = time.time()        
         self.output = output
         self.log = []

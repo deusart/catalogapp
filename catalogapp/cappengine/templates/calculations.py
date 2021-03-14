@@ -1,19 +1,16 @@
-from catalogapp.engine.templates import filters
-
 def load_offset(get_data, output, limit=10000):
-    result = []        
-    step = 1 
+    result = []  
     filter = 0      
     data = get_data(filter)
 
     while len(data) >= limit:
-        result += data       
-        step += 1
+        result += data        
         filter += limit
         data = get_data(filter)
     else:
         result += data
         output(result)
+
 
 def load_startid(get_data, output, limit=10000):
     result = []        

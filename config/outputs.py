@@ -4,6 +4,3 @@ def trace_full(message):
 
 def trace_none(message):
     pass
-
-def trace_saves(message):
-    pass

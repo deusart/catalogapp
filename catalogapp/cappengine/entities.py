@@ -1,54 +1,45 @@
-from catalogapp.engine.templates import urls, path
-from catalogapp.engine import calculations
+from catalogapp.cappengine.templates import urls, paths, filters, calculations, formats
 
 entity = {
-    # 'catalogs': {
-    #     'entity': 'catalogs',
-    #     'subentity': None,
-    #     'url': urls['catalogs'],
-    #     'filter': filters['empty'],
-    #     'path': path['catalogs'],
-    #     'filters_type': 'empty',
-    #     'entities_type': 'root',
-    #     'timestamp': False
-    #     },
-    'vendors': {       
-        'url': urls['vendors'],
-        'path': path['vendors'],
-        'calculation_type': calculations.load_offset_total,
+    'catalogs': {
+        'url': urls.catalogs,
+        'path': paths.catalogs,
+        'filter': filters.offset,
         'timestamp': False
         },
-    # 'suppliers': {
-    #     'entity': 'suppliers',
-    #     'subentity': None,
-    #     'url': urls['catalog_entity'],
-    #     'filter': filters['offset'],
-    #     'path': path['catalog_entity'],
-    #     'filters_type': 'offset',
-    #     'entities_type': 'entity',
-    #     'timestamp': False
-    #     },
-    # 'categories': {
-    #     'entity': 'categories',
-    #     'subentity': None,
-    #     'url': urls['catalog_entity'],
-    #     'filter': filters['offset'],
-    #     'path': path['catalog_entity'],
-    #     'filters_type': 'offset',
-    #     'entities_type': 'entity',
-    #     'timestamp': False
-    #     },
-    # 'pricing-profiles': {
-    #     'entity': 'pricing-profiles',
-    #     'subentity': None,
-    #     'url': urls['catalog_entity'],
-    #     'filter': filters['offset'],
-    #     'path': path['catalog_entity'],
-    #     'filters_type': 'offset',
-    #     'entities_type': 'entity',
-    #     'timestamp': False
-    #     },
-    # 'models': {
+    'vendors': {
+        'url': urls.vendors,
+        'path': paths.vendors,
+        'filter': filters.offset,
+        'calculation': calculations.load_offset,
+        'format': formats.dictionary,
+        'timestamp': False
+        },
+    'suppliers': {
+        'url': urls.suppliers,
+        'path': paths.suppliers,
+        'filter': filters.offset,
+        'calculation': calculations.load_offset,
+        'format': formats.dictionary,
+        'timestamp': False
+        },
+    'categories': {
+        'url': urls.categories,
+        'path': paths.categories,
+        'filter': filters.offset,
+        'calculation': calculations.load_offset,
+        'format': formats.dictionary,
+        'timestamp': False
+        },
+    'pricing_profiles': {
+        'url': urls.pricing_profiles,
+        'path': paths.pricing_profiles,
+        'filter': filters.offset,
+        'calculation': calculations.load_offset,
+        'format': formats.dictionary,
+        'timestamp': False
+        },
+        # 'models': {
     #     'entity': 'models',
     #     'subentity': None,
     #     'url': urls['catalog_entity'],

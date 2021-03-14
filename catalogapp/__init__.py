@@ -1,14 +1,4 @@
-from catalogapp import catalogs as capp
-
-engine =  capp.engine
-catalogs = capp.Catalogs()
-vendors = capp.Entity('vendors', catalogs)
-
-def show_response(url, limit=None):
-    if limit is None:
-        print(engine.get_response(url))
-    else:
-        print(engine.get_response(url, limit=limit))
+import catalogapp.assembly as v1
 
 
         # if catalog_type == 'dictionaries':

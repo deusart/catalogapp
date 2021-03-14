@@ -1,12 +1,10 @@
-from catalogapp.engine import templates, entities
-# from catalogapp.engine import entities
-from core import files, http
-from config import settings
+from catalogapp.cappengine.templates import urls
+from catalogapp.cappengine.utils import files, http
 import time
 
 class CatalogEngine(object):
     
-    def __init__(self, trace):
+    def __init__(self, trace, settings):
         self.trace = trace
         self.token = None
         self.headers = settings.HEADER
@@ -18,7 +16,7 @@ class CatalogEngine(object):
         self.authorization()
     
     def authorization(self):
-        url = templates.urls['authorization']
+        url = urls.authorization
         token = http.get_token(url, self.headers, self.credential)
         self.token = {'Authorization': f'Bearer {token}'}
         self.trace('Bearer token received.', 'System')
@@ -28,9 +26,6 @@ class CatalogEngine(object):
             limit = self.limit
         url = f'{url}?limit={limit}{filters}'
         return http.get_json(url, self.token)
-
-    def get_templates(self, entity, template_type):
-        return entities.entity[entity][template_type]
 
     def save_json(self, path, data, entity, timestamp=False):  
         time.sleep(1)
