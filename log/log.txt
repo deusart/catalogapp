@@ -1,32 +1,17 @@
 [System] [Time 0.00 / 0.00 sec] Engine started.
-[System] [Time 0.19 / 0.19 sec] Bearer token received.
-[System] [Time 0.13 / 0.32 sec] Entity catalogs created.
-[System] [Time 0.00 / 0.32 sec] Entity catalogs.vendors created.
-[System] [Time 0.00 / 0.32 sec] Entity catalogs.categories created.
-[System] [Time 0.00 / 0.32 sec] Entity catalogs.suppliers created.
-[System] [Time 0.00 / 0.32 sec] Entity catalogs.pricing_profiles created.
-[System] [Time 0.00 / 0.32 sec] Entity catalogs.models created.
-[Trace] [Time 1.22 / 1.54 sec] Successfully created the directory D:\DATA\JSON\catalog\29\models\ 
-[Saving] [Time 0.04 / 1.58 sec] File D:\DATA\JSON\catalog\29\models\models_1615739699.json is saved.
-[Trace] [Time 1.26 / 2.84 sec] Successfully created the directory D:\DATA\JSON\catalog\27\models\ 
-[Saving] [Time 0.00 / 2.84 sec] File D:\DATA\JSON\catalog\27\models\models_1615739700.json is saved.
-[Trace] [Time 2.04 / 4.88 sec] Successfully created the directory D:\DATA\JSON\catalog\26\models\ 
-[Saving] [Time 0.02 / 4.91 sec] File D:\DATA\JSON\catalog\26\models\models_1615739702.json is saved.
-[Saving] [Time 24.04 / 28.94 sec] File D:\DATA\JSON\catalog\2\models\models_1615739725.json is saved.
-[Saving] [Time 30.76 / 59.70 sec] File D:\DATA\JSON\catalog\2\models\models_1615739755.json is saved.
-[Saving] [Time 28.97 / 88.67 sec] File D:\DATA\JSON\catalog\2\models\models_1615739784.json is saved.
-[Saving] [Time 26.85 / 115.52 sec] File D:\DATA\JSON\catalog\2\models\models_1615739811.json is saved.
-[Saving] [Time 27.93 / 143.45 sec] File D:\DATA\JSON\catalog\2\models\models_1615739839.json is saved.
-[Saving] [Time 27.99 / 171.44 sec] File D:\DATA\JSON\catalog\2\models\models_1615739867.json is saved.
-[Saving] [Time 27.69 / 199.13 sec] File D:\DATA\JSON\catalog\2\models\models_1615739895.json is saved.
-[Saving] [Time 18.35 / 217.49 sec] File D:\DATA\JSON\catalog\2\models\models_1615739914.json is saved.
-[Trace] [Time 17.26 / 234.74 sec] Successfully created the directory D:\DATA\JSON\catalog\1\models\ 
-[Saving] [Time 1.51 / 236.26 sec] File D:\DATA\JSON\catalog\1\models\models_1615739932.json is saved.
-[Saving] [Time 17.86 / 254.12 sec] File D:\DATA\JSON\catalog\1\models\models_1615739950.json is saved.
-[Saving] [Time 16.76 / 270.88 sec] File D:\DATA\JSON\catalog\1\models\models_1615739967.json is saved.
-[Saving] [Time 17.65 / 288.53 sec] File D:\DATA\JSON\catalog\1\models\models_1615739984.json is saved.
-[Saving] [Time 20.02 / 308.55 sec] File D:\DATA\JSON\catalog\1\models\models_1615740004.json is saved.
-[Saving] [Time 20.97 / 329.52 sec] File D:\DATA\JSON\catalog\1\models\models_1615740025.json is saved.
-[Saving] [Time 18.26 / 347.78 sec] File D:\DATA\JSON\catalog\1\models\models_1615740044.json is saved.
-[System] [Time 0.11 / 347.89 sec] Saving entity models is completed.
-
+[System] [Time 0.14 / 0.14 sec] Bearer token received.
+[System] [Time 0.14 / 0.28 sec] Entity catalogs created.
+[System] [Time 0.00 / 0.28 sec] Entity catalogs.vendors created.
+[System] [Time 0.00 / 0.28 sec] Entity catalogs.categories created.
+[System] [Time 0.00 / 0.28 sec] Entity catalogs.suppliers created.
+[System] [Time 0.00 / 0.28 sec] Entity catalogs.pricing_profiles created.
+[System] [Time 0.00 / 0.28 sec] Entity catalogs.models created.
+[System] [Time 0.00 / 0.28 sec] Entity catalogs.suppliers_prices created.
+[System] [Time 0.00 / 0.28 sec] Entity catalogs.pricing_profiles_prices created.
+[System] [Time 0.00 / 0.28 sec] Entity catalogs.categories_details created.
+[Saving] [Time 2.67 / 2.96 sec] File D:\DATA\JSON\catalog\29\categories_details\categories_details_1615760384.json is saved. (10 Items)
+[Saving] [Time 7.24 / 10.20 sec] File D:\DATA\JSON\catalog\27\categories_details\categories_details_1615760392.json is saved. (48 Items)
+[Saving] [Time 74.43 / 84.63 sec] File D:\DATA\JSON\catalog\26\categories_details\categories_details_1615760466.json is saved. (501 Items)
+[Saving] [Time 7.76 / 92.40 sec] File D:\DATA\JSON\catalog\26\categories_details\categories_details_1615760474.json is saved. (53 Items)
+[Saving] [Time 74.60 / 166.99 sec] File D:\DATA\JSON\catalog\2\categories_details\categories_details_1615760549.json is saved. (501 Items)
+[Saving] [Time 75.11 / 242.10 sec] File D:\DATA\JSON\catalog\2\categories_details\categories_details_1615760624.json is saved. (501 Items)

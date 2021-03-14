@@ -2,9 +2,12 @@ from catalogapp import cappengine
 from config import settings
 from catalogapp import catalogs as capp
 
+
 debug = cappengine.Debug(settings.OUTPUT)
 engine = cappengine.CatalogEngine(debug.trace, settings)
 engine.get_template = cappengine.get_template
+engine.get_ids = cappengine.get_ids
+
 catalogs = capp.Catalogs(engine)
 vendors = capp.Dictionaries(engine, catalogs, 'vendors')
 categories = capp.Dictionaries(engine, catalogs, 'categories')
@@ -12,16 +15,11 @@ suppliers = capp.Dictionaries(engine, catalogs, 'suppliers')
 pricing_profiles = capp.Dictionaries(engine, catalogs, 'pricing_profiles')
 
 models = capp.Models(engine, catalogs, 'models')
+suppliers_prices = capp.Prices(engine, catalogs, 'suppliers_prices')
+pricing_profiles_prices = capp.Prices(engine, catalogs, 'pricing_profiles_prices')
 
-# from catalogapp import catalogs as capp
+categories_details = capp.CategoiesDetails(engine, catalogs, 'categories_details')
 
-# engine =  capp.engine
-# catalogs = capp.Catalogs()
-# vendors = capp.Entity('vendors', catalogs)
-
-# def show_response(url, limit=None):
-#     if limit is None:
-#         print(engine.get_response(url))
-#     else:
-#         print(engine.get_response(url, limit=limit))
-
+def show_response(url, filters=''):
+    print(engine.get_response(url, filters))
+    

@@ -4,9 +4,9 @@ import json
 
 urllib3.disable_warnings()
 
-def get_json(url, headers=None) -> 'dict': 
-    restponse = requests.get(url, headers=headers)
-    json = restponse.json()    
+def get_json(url, headers=None) -> 'json':    
+    response = requests.get(url, headers=headers)    
+    json = response.json()
     return json
 
 def get_token(url, headers, credentials) -> 'string': 

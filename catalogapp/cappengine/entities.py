@@ -12,7 +12,7 @@ entity = {
         'path': paths.vendors,
         'filter': filters.offset,
         'calculation': calculations.load_offset,
-        'format': formats.dictionary,
+        'format': formats.entity,
         'timestamp': False
         },
     'suppliers': {
@@ -20,7 +20,7 @@ entity = {
         'path': paths.suppliers,
         'filter': filters.offset,
         'calculation': calculations.load_offset,
-        'format': formats.dictionary,
+        'format': formats.entity,
         'timestamp': False
         },
     'categories': {
@@ -28,7 +28,7 @@ entity = {
         'path': paths.categories,
         'filter': filters.offset,
         'calculation': calculations.load_offset,
-        'format': formats.dictionary,
+        'format': formats.entity,
         'timestamp': False
         },
     'pricing_profiles': {
@@ -36,7 +36,7 @@ entity = {
         'path': paths.pricing_profiles,
         'filter': filters.offset,
         'calculation': calculations.load_offset,
-        'format': formats.dictionary,
+        'format': formats.entity,
         'timestamp': False
         },
     'models': {
@@ -47,26 +47,34 @@ entity = {
         'format': formats.model,
         'timestamp': True
         },
-    # 'suppliers-prices': {
-    #     'entity': 'suppliers',
-    #     'subentity': 'prices',
-    #     'url': urls['catalog_entity_id_prices'],
-    #     'filter': filters['startid'],
-    #     'path': path['catalog_entity_timestamp'],
-    #     'filters_type': 'startid',
-    #     'entities_type': 'subentity',
-    #     'timestamp': True
-    #     },
-    # 'pricing-profiles-prices': {
-    #     'entity': 'pricing-profiles',
-    #     'subentity': 'prices',
-    #     'url': urls['catalog_entity_id_prices'],
-    #     'filter': filters['startid'],
-    #     'path': path['catalog_entity_timestamp'],
-    #     'filters_type': 'startid',
-    #     'entities_type': 'subentity',
-    #     'timestamp': True
-    #     },
+    'suppliers_prices': {
+        'parent': 'suppliers',
+        'url': urls.suppliers_prices,
+        'path': paths.suppliers_prices, 
+        'filter': filters.startid,
+        'calculation': calculations.load_startid_prices,
+        'format': formats.suppliers_prices,
+        'timestamp': True
+        },
+    'pricing_profiles_prices': {
+        'parent': 'pricing_profiles',
+        'url': urls.pricing_profiles_prices,
+        'path': paths.pricing_profiles_prices, 
+        'filter': filters.startid,
+        'calculation': calculations.load_startid_prices,
+        'format': formats.pricing_profiles_prices,
+        'timestamp': True
+        },
+    'categories_details': {
+        'parent': 'categories',
+        'url': urls.categories_details,
+        'path': paths.categories_details, 
+        'filter': filters.offset,
+        'calculation': calculations.load_line,
+        'format': formats.entity,
+        'timestamp': True
+        },
+
     # 'models-cards': {
     #     'entity': 'models',
     #     'subentity': 'cards',
@@ -87,16 +95,7 @@ entity = {
     #     'entities_type': 'subentity',
     #     'timestamp': True
     #     },
-    # 'categories-details': {
-    #     'entity': 'categories',
-    #     'subentity': 'details',
-    #     'url': urls['catalog_entity_id'],
-    #     'filter': filters['offset'],
-    #     'path': path['catalog_entity_timestamp'],
-    #     'filters_type': 'offset',
-    #     'entities_type': 'entity',
-    #     'timestamp': True
-    #     },
+
     # 'modified': {
     #     'entity': 'models',
     #     'url_modified': urls['catalog_modified'],

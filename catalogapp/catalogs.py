@@ -1,11 +1,5 @@
-# from catalogapp.cappengine import engine
-# from catalogapp.cappengine import debug
-# from catalogapp.cappengine import templates
-# from catalogapp.engine import format
 from catalogapp.base import Entity
-# from catalogapp.engine import calculations
 import datetime
-
 class Catalogs(object):
     def __init__(self, engine):
         self.trace = engine.trace
@@ -24,13 +18,59 @@ class Catalogs(object):
     
     def info(self):
         print(self.names)
-
 class Dictionaries(Entity):
     pass
+class Models(Entity):
+    def _init_custom(self):
+        self.partition = 20
+class Prices(Entity):
+    def _init_custom(self):
+        self.partition = 3
+        self.parent = self.get_template(self.entity, 'parent')        
+        self.result = []
 
-class Models(Entity):
+    def prepare_entities(self):
+        self.entities = {}
+        url_template = self.get_template(self.parent, 'url')     
+        for catalog_id in self.catalogs.ids:                
+            url = url_template % (catalog_id)
+            response =  self.engine.get_response((url))
+            data = self.engine.get_ids(response)
+            self.entities[catalog_id] = tuple(data)
+    
+    def set_parameters(self, catalog_id, entity_id):
+        self.catalog_id = catalog_id
+        self.url = self.url_template % (catalog_id, entity_id)
+        self.path = self.path_template % (catalog_id)  
+
+    def store_catalog(self, catalog_id):
+        for entity_id in self.entities[catalog_id]:
+            self.set_parameters(catalog_id, entity_id)
+            self.calculation(self)
+        self.output(self.result)
+        self.result = []
+class CategoiesDetails(Entity):
     def _init_custom(self):
-        self.partition = 20
-class Models(Entity):
-    def _init_custom(self):
-        self.partition = 20
+        self.parent = self.get_template(self.entity, 'parent')        
+        self.result = []
+    
+    def prepare_entities(self): # need to be updated to offset
+        self.entities = {}
+        url_template = self.get_template(self.parent, 'url')     
+        for catalog_id in self.catalogs.ids:                
+            url = url_template % (catalog_id)
+            response =  self.engine.get_response((url))
+            data = self.engine.get_ids(response)
+            self.entities[catalog_id] = tuple(data)
+    
+    def set_parameters(self, catalog_id, entity_id):
+        self.catalog_id = catalog_id
+        self.url = self.url_template % (catalog_id, entity_id)
+        self.path = self.path_template % (catalog_id)
+    
+    def store_catalog(self, catalog_id):
+        for entity_id in self.entities[catalog_id]:
+            self.set_parameters(catalog_id, entity_id)
+            self.calculation(self)
+        self.output(self.result)
+        self.result = []

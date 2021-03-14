@@ -16,7 +16,7 @@ class Entity(object):
     def __init__(self, engine, catalogs, entity):
         self.trace = engine.trace
         self.engine = engine
-        self.get_template = engine.get_template
+        self.get_template = engine.get_template        
         self.entity = entity
         self.catalogs = catalogs        
         self._init_defaults()
