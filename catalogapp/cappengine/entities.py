@@ -39,16 +39,14 @@ entity = {
         'format': formats.dictionary,
         'timestamp': False
         },
-        # 'models': {
-    #     'entity': 'models',
-    #     'subentity': None,
-    #     'url': urls['catalog_entity'],
-    #     'filter': filters['startid'],
-    #     'path': path['catalog_entity_timestamp'],
-    #     'filters_type': 'startid',
-    #     'entities_type': 'entity',
-    #     'timestamp': True
-    #     },
+    'models': {
+        'url': urls.models,
+        'path': paths.models, 
+        'filter': filters.startid,
+        'calculation': calculations.load_startid_partition,
+        'format': formats.model,
+        'timestamp': True
+        },
     # 'suppliers-prices': {
     #     'entity': 'suppliers',
     #     'subentity': 'prices',

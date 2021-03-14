@@ -27,3 +27,10 @@ class Catalogs(object):
 
 class Dictionaries(Entity):
     pass
+
+class Models(Entity):
+    def _init_custom(self):
+        self.partition = 20
+class Models(Entity):
+    def _init_custom(self):
+        self.partition = 20

@@ -23,8 +23,7 @@ class Entity(object):
         self._init_custom()
         self.trace(f'Entity catalogs.{self.entity} created.','System')
     
-    def store(self, catalog_id=None):  
-        self.trace(f'Entity catalogs.{self.entity} store.')      
+    def store(self, catalog_id=None):
         if catalog_id is None:
             for catalog_id in self.catalogs.ids:                
                 self.store_catalog(catalog_id)
@@ -33,7 +32,6 @@ class Entity(object):
         self.trace(f'Saving entity {self.entity} is completed.\n','System')
 
     def _init_defaults(self):
-        self.trace(f'Entity catalogs.{self.entity} _init_defaults.')
         self.url_template = self.get_template(self.entity, 'url')
         self.path_template = self.get_template(self.entity, 'path')
         self.filter_template = self.get_template(self.entity, 'filter')
@@ -42,16 +40,16 @@ class Entity(object):
         self.timestamp = self.get_template(self.entity, 'timestamp')
 
     def _init_custom(self):
-        self.trace(f'Entity catalogs.{self.entity} _init_custom.')
         pass
 
     def output(self, result):
-        self.trace(f'Entity catalogs.{self.entity} output.')
-        data = self.format(result, self.catalog_id)
+        data = {}
+        for item in result:
+            line = self.format(item, self.catalog_id)
+            data.update(line)
         self.engine.save_json(self.path, data, self.entity, self.timestamp)
 
     def request(self, filter_input=None):
-        self.trace(f'Entity catalogs.{self.entity} request.')
         if filter_input is not None:
             filters = self.filter_template % (filter_input)
         else:
@@ -61,18 +59,20 @@ class Entity(object):
             response = [response,]
         return response
 
-    def set_parameters(self, catalog_id):   
-        self.trace(f'Entity catalogs.{self.entity} set_parameters.')
+    def set_parameters(self, catalog_id):
         self.catalog_id = catalog_id
         self.url = self.url_template % (catalog_id)
         self.path = self.path_template % (catalog_id)  
 
     def store_catalog(self, catalog_id):
-        self.trace(f'Entity catalogs.{self.entity} store_catalog.')
         self.set_parameters(catalog_id)
-        self.calculation(self.request, self.output, self.engine.limit)
+        self.calculation(self)
 
     def store_id(self, catalog_id, entity_id):
-        self.trace(f'Entity catalogs.{self.entity} store_id.')
-        self.url = self.url_template % (catalog_id)
+        self.set_parameters(catalog_id)
         self.url += f'/{entity_id}'
+        response = self.engine.get_response(self.url)
+        data = {}
+        data['catalogId'] = catalog_id        
+        data[response['id']] = response
+        self.engine.save_json(self.path, data, self.entity, self.timestamp)

@@ -10,6 +10,9 @@ vendors = capp.Dictionaries(engine, catalogs, 'vendors')
 categories = capp.Dictionaries(engine, catalogs, 'categories')
 suppliers = capp.Dictionaries(engine, catalogs, 'suppliers')
 pricing_profiles = capp.Dictionaries(engine, catalogs, 'pricing_profiles')
+
+models = capp.Models(engine, catalogs, 'models')
+
 # from catalogapp import catalogs as capp
 
 # engine =  capp.engine
