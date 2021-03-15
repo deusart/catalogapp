@@ -7,7 +7,3 @@ Modules needed to be installed:
 
 module description
 - main.py - space to run module
-- - core - support module with common functions and objects
-- - - http.py - module with request functions
-- - - - get_json(url, headers)
-- - - - get_token(url, headers, credentials)
