@@ -1,7 +1,7 @@
 from catalogapp import cappengine
 from config import settings
 from catalogapp import catalogs as capp
-
+from catalogapp import modified
 
 debug = cappengine.Debug(settings.OUTPUT)
 engine = cappengine.CatalogEngine(debug.trace, settings)
@@ -19,6 +19,9 @@ suppliers_prices = capp.Prices(engine, catalogs, 'suppliers_prices')
 pricing_profiles_prices = capp.Prices(engine, catalogs, 'pricing_profiles_prices')
 
 categories_details = capp.CategoiesDetails(engine, catalogs, 'categories_details')
+
+modified = modified.Modified(engine, catalogs, 'modified')
+
 
 def show_response(url, filters=''):
     print(engine.get_response(url, filters))

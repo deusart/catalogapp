@@ -1,5 +1,4 @@
 from catalogapp.base import Entity
-import datetime
 class Catalogs(object):
     def __init__(self, engine):
         self.trace = engine.trace
@@ -49,9 +48,10 @@ class Prices(Entity):
             self.calculation(self)
         self.output(self.result)
         self.result = []
-class CategoiesDetails(Entity):
+class CategoiesDetails(Entity):    
     def _init_custom(self):
-        self.parent = self.get_template(self.entity, 'parent')        
+        self.parent = self.get_template(self.entity, 'parent')   
+        self.partition = 500     
         self.result = []
     
     def prepare_entities(self): # need to be updated to offset

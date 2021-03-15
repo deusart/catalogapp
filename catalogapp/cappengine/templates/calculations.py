@@ -12,25 +12,10 @@ def load_offset(entity):
         result += data
         entity.output(result)
 
-# def load_offset(get_data, output, limit=10000):
-#     result = []  
-#     filter = 0      
-#     data = get_data(filter)
-
-#     while len(data) >= limit:
-#         result += data        
-#         filter += limit
-#         data = get_data(filter)
-#     else:
-#         result += data
-#         output(result)
-
 def load_startid(entity):
     result = []
     filter = 0
     limit = entity.engine.limit
-    partition = entity.partition
-
     data = entity.request(filter)
 
     while len(data) >= limit:
@@ -90,7 +75,7 @@ def load_line(entity):
     if isinstance(data, dict):
         data = [data,]
     entity.result += data
-    if len(entity.result) > limit/20:
+    if len(entity.result) > entity.partition:
             entity.output(entity.result)
             entity.result = []
    

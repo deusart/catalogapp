@@ -9,5 +9,5 @@ def get_ids(json_list):
     data = []
     if len(json_list) > 0:
         for item in json_list:
-            data.append(item['id'])
+            data.append(item['id'])    
     return data

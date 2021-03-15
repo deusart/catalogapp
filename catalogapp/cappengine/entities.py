@@ -4,7 +4,6 @@ entity = {
     'catalogs': {
         'url': urls.catalogs,
         'path': paths.catalogs,
-        'filter': filters.offset,
         'timestamp': False
         },
     'vendors': {
@@ -44,7 +43,7 @@ entity = {
         'path': paths.models, 
         'filter': filters.startid,
         'calculation': calculations.load_startid_partition,
-        'format': formats.model,
+        'format': formats.models,
         'timestamp': True
         },
     'suppliers_prices': {
@@ -72,6 +71,21 @@ entity = {
         'filter': filters.offset,
         'calculation': calculations.load_line,
         'format': formats.entity,
+        'timestamp': True
+        },
+    'modified': {
+        'parent': 'models',
+        'url': urls.models_modified,        
+        'filter': filters.offset_fromUtc,
+        'calculation': calculations.load_offset,
+        'entities': ['models_details', 'pricing_profiles_prices', 'suppliers_prices'],
+        },
+    'models_details': {
+        'parent': 'models',
+        'url': urls.models_details,
+        'path': paths.models_details,
+        'calculation': calculations.load_line,
+        'format': formats.models_details,
         'timestamp': True
         },
 

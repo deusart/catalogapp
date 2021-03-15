@@ -20,9 +20,18 @@ class CatalogEngine(object):
         url = urls.authorization
         token = http.get_token(url, self.headers, self.credential)
         self.token = {'Authorization': f'Bearer {token}'}
+        self.token_time = datetime.datetime.now()
         self.trace('Bearer token received.', 'System')
 
+    def check_token(self):
+        now = datetime.datetime.now()
+        minutes_diff = (now - self.token_time).total_seconds() / 60.0
+        if minutes_diff > 30:
+            self.authorization()
+
     def get_response(self, url='', filters='', limit=None):
+        self.check_token()
+        
         if limit is None:
             limit = self.limit
         url = f'{url}?limit={limit}{filters}'

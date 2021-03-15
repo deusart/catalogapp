@@ -4,7 +4,7 @@ def entity(item, catalog_id):
     data[item['id']] = item
     return data
 
-def model(item, catalog_id):
+def models(item, catalog_id):
     entity = {}
     entity_line = {}
 
@@ -21,13 +21,33 @@ def model(item, catalog_id):
         if 'externalId' in item.keys():
             entity_line['externalId'] = item['externalId']
         if 'vendor' in item.keys():
-            entity_line['vendor'] = item['vendor']
+            entity_line['vendorId'] = item['vendor']['id']
         if 'category' in item.keys():
-            entity_line['category'] = item['category']
+            entity_line['categoryId'] = item['category']['id']
         entity[entity_line['id']] = entity_line     
     return entity
 
-def suppliers_prices(item, catalog_id):
+def models_details(item, catalog_id):
+    entity = {}
+    entity_line = {}
+
+    if 'id' in item.keys():
+        entity_line['catalogId'] = catalog_id
+        entity_line['id'] = item['id']      
+        if 'competitorPrices' in item.keys():
+            entity_line['competitorPrices'] = item['competitorPrices']
+        if 'modelToLibraries' in item.keys():    
+            entity_line['modelToLibraries'] = item['modelToLibraries']
+        if 'propertyValues' in item.keys():
+            entity_line['propertyValues'] = item['propertyValues']
+        if 'description' in item.keys():
+            entity_line['description'] = item['description']
+        if 'similarModels' in item.keys():
+            entity_line['similarModels'] = item['similarModels']
+        entity[entity_line['id']] = entity_line     
+    return entity
+
+def suppliers_prices(item, catalog_id, model_id=None):
     entity = {}
     entity_line = {}
 
@@ -55,15 +75,18 @@ def suppliers_prices(item, catalog_id):
             entity_line['manuallyValidated'] = item['manuallyValidated']
         if 'suspicious' in item.keys():
             entity_line['suspicious'] = item['suspicious']
-        if 'model' in item.keys():
-            entity_line['modelId'] = item['model']['id']
+        if model_id is None:
+            if 'model' in item.keys():
+                entity_line['modelId'] = item['model']['id']
+        else:
+            entity_line['modelId'] = model_id
         if 'supplier' in item.keys():
             entity_line['supplierId'] = item['supplier']['id']
 
         entity[entity_line['id']] = entity_line
     return entity
 
-def pricing_profiles_prices(item, catalog_id):
+def pricing_profiles_prices(item, catalog_id, model_id=None):
     entity = {}
     entity_line = {}
 
@@ -96,8 +119,11 @@ def pricing_profiles_prices(item, catalog_id):
             entity_line['exportAttributeId'] = item['exportAttributeId']
         if 'pricingProfile' in item.keys():
             entity_line['pricingProfileId'] = item['pricingProfile']['id']
-        if 'model' in item.keys():
-            entity_line['modelId'] = item['model']['id']
+        if model_id is None:
+            if 'model' in item.keys():
+                entity_line['modelId'] = item['model']['id']
+        else:
+            entity_line['modelId'] = model_id
 
         entity[entity_line['id']] = entity_line
     return entity
