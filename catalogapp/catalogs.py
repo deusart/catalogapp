@@ -19,9 +19,6 @@ class Catalogs(object):
         print(self.names)
 class Dictionaries(Entity):
     pass
-class Models(Entity):
-    def _init_custom(self):
-        self.partition = 20
 class Prices(Entity):
     def _init_custom(self):
         self.partition = 3

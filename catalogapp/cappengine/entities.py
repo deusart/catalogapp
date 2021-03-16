@@ -77,8 +77,14 @@ entity = {
         'parent': 'models',
         'url': urls.models_modified,        
         'filter': filters.offset_fromUtc,
-        'calculation': calculations.load_offset,
-        'entities': ['models_details', 'pricing_profiles_prices', 'suppliers_prices'],
+        'calculation': calculations.load_offset,        
+        },
+    'models_deleted': {
+        'parent': 'models',
+        'url': urls.models_deleted,
+        'path': paths.models_deleted, 
+        'filter': filters.offset,
+        'calculation': calculations.load_offset,        
         },
     'models_details': {
         'parent': 'models',

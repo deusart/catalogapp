@@ -3,7 +3,10 @@ import datetime
 
 class Modified(Entity):    
     def _init_defaults(self):
+        self.url_template = self.get_template(self.entity, 'url')
+        self.filter_template = self.get_template(self.entity, 'filter')
         self.url_models_template = self.get_template('models_details', 'url')
+
         self.calculation_models = self.get_template('models_details', 'calculation')
         self.calculation_modified = self.get_template(self.entity, 'calculation')
 
@@ -11,22 +14,17 @@ class Modified(Entity):
         self.format_models_details = self.get_template('models_details', 'format')
         self.format_suppliers_prices = self.get_template('suppliers_prices', 'format')
         self.format_pricing_profiles_prices = self.get_template('pricing_profiles_prices', 'format')
-
         self.path_models = self.get_template('models', 'path')
         self.path_models_details = self.get_template('models_details', 'path')
         self.path_suppliers_prices = self.get_template('suppliers_prices', 'path')
         self.path_pricing_profiles_prices = self.get_template('pricing_profiles_prices', 'path')
-
-        # self.filter_template = self.get_template(self.entity, 'filter')
-
-        self.partition = 50
         self.result = []
 
     # create specific methods for models offset
-    def _output_modified(self, result):
+    def output(self, result):
         self.data += self.engine.get_ids(result)
 
-    def _request_modified(self, filter_input=0):
+    def request(self, filter_input=0):
         filters = self.filter_template % (filter_input, self.date_from)    
         response = self.engine.get_response(self.url, filters) 
         if isinstance(response, dict):
@@ -40,38 +38,12 @@ class Modified(Entity):
            self.date_from = str(datetime.datetime.now().date() + datetime.timedelta(days = -date_offset))
         self.entities = {}
 
-        self.url_template = self.get_template(self.entity, 'url')
-        self.filter_template = self.get_template(self.entity, 'filter')
-        
-        self.output = self._output_modified
-        self.request = self._request_modified
-
         for catalog_id in self.catalogs.ids:                
             self.url = self.url_template % (catalog_id)
             self.data = []
             self.calculation_modified(self)
             self.data = list(dict.fromkeys( self.data))
             self.entities[catalog_id] = list(self.data)
-        
-        self.output = self._output
-        self.request = self._request
-
-    def _output(self, result):
-        
-        print(result)
-
-        self.result = []
-
-    def _request(self, filter_input=0):
-        response = self.engine.get_response(self.url_models) 
-        if isinstance(response, dict):
-            response = [response,]
-        return response
-
-    def set_parameters(self, catalog_id, entity_id):
-        self.catalog_id = catalog_id
-        self.url_models = self.url_models_template % (catalog_id, entity_id)
-        # self.path = self.path_template % (catalog_id)  
 
     def store_catalog(self, catalog_id):
         models = {}

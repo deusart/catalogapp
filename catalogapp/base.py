@@ -1,16 +1,3 @@
-import catalogapp
-import catalogapp.cappengine
-
-# debug = cappengine.Debug()
-# engine = cappengine.CatalogEngine(debug.trace, settings)
-
-# debug = debug.Debug(settings.OUTPUT)
-# engine = CatalogEngine(debug.trace)
-
-# debug = catalogapp.engine.debug
-# defaults = catalogapp.engine.defaults
-# engine = catalogapp.engine.engine
-
 class Entity(object):
 
     def __init__(self, engine, catalogs, entity):
