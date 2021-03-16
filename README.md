@@ -7,3 +7,8 @@ Modules needed to be installed:
 
 module description
 - main.py - space to run module
+- load_* - configured moduls for loading data
+- test - foder for unittests
+- log - log for script executions
+- config - folder for settings
+- catalogapp - main logic
