@@ -70,7 +70,7 @@ entity = {
         'path': paths.categories_details, 
         'filter': filters.offset,
         'calculation': calculations.load_line,
-        'format': formats.entity,
+        'format': formats.categories_details,
         'timestamp': True
         },
     'modified': {

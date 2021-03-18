@@ -132,7 +132,7 @@ def categories_details(item, catalog_id):
     entity = {}
     entity_line = {}
 
-    if 'properties' in item.keys():
+    if 'properties' in item.keys() and (len(item['properties']) > 0 or len(item['propertyGroups']) > 0):
         entity_line['catalogId'] = catalog_id
         entity_line['id'] = item['id']
         if 'properties' in item.keys():

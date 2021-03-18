@@ -36,10 +36,10 @@ class Prices(Entity):
     
     def set_parameters(self, catalog_id, entity_id):
         self.catalog_id = catalog_id
-        self.url = self.url_template % (catalog_id, entity_id)
-        self.path = self.path_template % (catalog_id)  
+        self.url = self.url_template % (catalog_id, entity_id)          
 
     def store_catalog(self, catalog_id):
+        self.path = self.path_template % (catalog_id)
         for entity_id in self.entities[catalog_id]:
             self.set_parameters(catalog_id, entity_id)
             self.calculation(self)
