@@ -1,143 +1,39 @@
 [System] [Time 0.00 / 0.00 sec] Engine started.
-[System] [Time 0.15 / 0.15 sec] Bearer token received.
-[System] [Time 0.14 / 0.29 sec] Entity catalogs created.
-[System] [Time 0.00 / 0.29 sec] Entity catalogs.vendors created.
-[System] [Time 0.00 / 0.29 sec] Entity catalogs.categories created.
-[System] [Time 0.00 / 0.29 sec] Entity catalogs.suppliers created.
-[System] [Time 0.00 / 0.29 sec] Entity catalogs.pricing_profiles created.
-[System] [Time 0.00 / 0.29 sec] Entity catalogs.models created.
-[System] [Time 0.00 / 0.29 sec] Entity catalogs.suppliers_prices created.
-[System] [Time 0.00 / 0.29 sec] Entity catalogs.pricing_profiles_prices created.
-[System] [Time 0.00 / 0.29 sec] Entity catalogs.categories_details created.
-[System] [Time 0.00 / 0.29 sec] Entity catalogs.modified created.
-[System] [Time 0.00 / 0.30 sec] Entity catalogs.models_deleted created.
-[Saving] [Time 215.34 / 215.64 sec] File D:\DATA\JSON\catalog\2\models\models_1616003504.json is saved. (251 Items)
-[Trace] [Time 1.00 / 216.64 sec] Successfully created the directory D:\DATA\JSON\catalog\2\models_details\ 
-[Saving] [Time 0.01 / 216.65 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616003505.json is saved. (251 Items)
-[Saving] [Time 203.58 / 420.23 sec] File D:\DATA\JSON\catalog\2\models\models_1616003709.json is saved. (251 Items)
-[Saving] [Time 1.01 / 421.24 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616003710.json is saved. (251 Items)
-[Saving] [Time 156.51 / 577.75 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616003866.json is saved. (252 Items)
-[Saving] [Time 6.23 / 583.97 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616003873.json is saved. (253 Items)
-[Saving] [Time 53.44 / 637.42 sec] File D:\DATA\JSON\catalog\2\models\models_1616003926.json is saved. (251 Items)
-[Saving] [Time 1.02 / 638.44 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616003927.json is saved. (251 Items)
-[Saving] [Time 76.18 / 714.61 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616004003.json is saved. (252 Items)
-[Saving] [Time 167.43 / 882.05 sec] File D:\DATA\JSON\catalog\2\models\models_1616004171.json is saved. (251 Items)
-[Saving] [Time 1.01 / 883.06 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616004172.json is saved. (251 Items)
-[Saving] [Time 70.78 / 953.84 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616004243.json is saved. (251 Items)
-[Saving] [Time 11.65 / 965.49 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616004254.json is saved. (252 Items)
-[Saving] [Time 138.38 / 1103.87 sec] File D:\DATA\JSON\catalog\2\models\models_1616004393.json is saved. (251 Items)
-[Saving] [Time 1.02 / 1104.89 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616004394.json is saved. (251 Items)
-[Saving] [Time 10.89 / 1115.78 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616004404.json is saved. (251 Items)
-[Saving] [Time 212.98 / 1328.76 sec] File D:\DATA\JSON\catalog\2\models\models_1616004617.json is saved. (251 Items)
-[Saving] [Time 1.01 / 1329.78 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616004618.json is saved. (251 Items)
-[Saving] [Time 25.69 / 1355.46 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616004644.json is saved. (251 Items)
-[Saving] [Time 193.05 / 1548.52 sec] File D:\DATA\JSON\catalog\2\models\models_1616004837.json is saved. (251 Items)
-[Saving] [Time 1.01 / 1549.53 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616004838.json is saved. (251 Items)
-[Saving] [Time 28.07 / 1577.60 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616004866.json is saved. (251 Items)
-[Saving] [Time 194.01 / 1771.60 sec] File D:\DATA\JSON\catalog\2\models\models_1616005060.json is saved. (251 Items)
-[Saving] [Time 1.01 / 1772.62 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616005061.json is saved. (251 Items)
-[Saving] [Time 22.77 / 1795.39 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616005084.json is saved. (251 Items)
-[System] [Time 5.31 / 1800.70 sec] Bearer token received.
-[Saving] [Time 185.77 / 1986.47 sec] File D:\DATA\JSON\catalog\2\models\models_1616005275.json is saved. (251 Items)
-[Saving] [Time 1.01 / 1987.48 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616005276.json is saved. (251 Items)
-[Saving] [Time 5.92 / 1993.40 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616005282.json is saved. (251 Items)
-[Saving] [Time 128.57 / 2121.97 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616005411.json is saved. (253 Items)
-[Saving] [Time 71.08 / 2193.05 sec] File D:\DATA\JSON\catalog\2\models\models_1616005482.json is saved. (251 Items)
-[Saving] [Time 1.03 / 2194.08 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616005483.json is saved. (251 Items)
-[Saving] [Time 1.72 / 2195.80 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616005484.json is saved. (251 Items)
-[Saving] [Time 26.87 / 2222.67 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616005511.json is saved. (254 Items)
-[Saving] [Time 53.20 / 2275.86 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616005565.json is saved. (253 Items)
-[Saving] [Time 116.53 / 2392.40 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616005681.json is saved. (251 Items)
-[Saving] [Time 1.09 / 2393.49 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616005682.json is saved. (251 Items)
-[Saving] [Time 15.81 / 2409.30 sec] File D:\DATA\JSON\catalog\2\models\models_1616005698.json is saved. (251 Items)
-[Saving] [Time 1.04 / 2410.34 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616005699.json is saved. (251 Items)
-[Saving] [Time 88.20 / 2498.54 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616005787.json is saved. (251 Items)
-[Saving] [Time 41.32 / 2539.86 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616005829.json is saved. (252 Items)
-[Saving] [Time 37.54 / 2577.40 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616005866.json is saved. (252 Items)
-[Saving] [Time 64.78 / 2642.18 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616005931.json is saved. (251 Items)
-[Saving] [Time 10.87 / 2653.05 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616005942.json is saved. (252 Items)
-[Saving] [Time 23.30 / 2676.35 sec] File D:\DATA\JSON\catalog\2\models\models_1616005965.json is saved. (251 Items)
-[Saving] [Time 1.05 / 2677.40 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616005966.json is saved. (251 Items)
-[Saving] [Time 60.39 / 2737.79 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616006026.json is saved. (252 Items)
-[Saving] [Time 9.65 / 2747.44 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616006036.json is saved. (253 Items)
-[Saving] [Time 82.53 / 2829.97 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616006119.json is saved. (252 Items)
-[Saving] [Time 32.94 / 2862.91 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616006152.json is saved. (251 Items)
-[Saving] [Time 58.87 / 2921.78 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616006210.json is saved. (252 Items)
-[Saving] [Time 54.02 / 2975.81 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616006265.json is saved. (252 Items)
-[Saving] [Time 7.89 / 2983.69 sec] File D:\DATA\JSON\catalog\2\models\models_1616006272.json is saved. (251 Items)
-[Saving] [Time 1.07 / 2984.76 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616006273.json is saved. (251 Items)
-[Saving] [Time 19.38 / 3004.14 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616006293.json is saved. (252 Items)
-[Saving] [Time 93.51 / 3097.66 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616006386.json is saved. (254 Items)
-[Saving] [Time 10.14 / 3107.80 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616006396.json is saved. (251 Items)
-[Saving] [Time 46.34 / 3154.14 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616006443.json is saved. (254 Items)
-[Saving] [Time 57.78 / 3211.92 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616006501.json is saved. (254 Items)
-[Saving] [Time 12.13 / 3224.04 sec] File D:\DATA\JSON\catalog\2\models\models_1616006513.json is saved. (251 Items)
-[Saving] [Time 1.03 / 3225.07 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616006514.json is saved. (251 Items)
-[Saving] [Time 49.03 / 3274.11 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616006563.json is saved. (251 Items)
-[Saving] [Time 4.67 / 3278.77 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616006567.json is saved. (255 Items)
-[Saving] [Time 147.72 / 3426.50 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616006715.json is saved. (253 Items)
-[Saving] [Time 36.15 / 3462.64 sec] File D:\DATA\JSON\catalog\2\models\models_1616006751.json is saved. (251 Items)
-[Saving] [Time 1.02 / 3463.67 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616006752.json is saved. (251 Items)
-[Saving] [Time 24.40 / 3488.06 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616006777.json is saved. (251 Items)
-[System] [Time 112.91 / 3600.98 sec] Bearer token received.
-[Saving] [Time 35.61 / 3636.59 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616006925.json is saved. (252 Items)
-[Saving] [Time 14.96 / 3651.55 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616006940.json is saved. (254 Items)
-[Saving] [Time 52.04 / 3703.59 sec] File D:\DATA\JSON\catalog\2\models\models_1616006992.json is saved. (251 Items)
-[Saving] [Time 1.02 / 3704.61 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616006993.json is saved. (251 Items)
-[Saving] [Time 26.49 / 3731.09 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616007020.json is saved. (253 Items)
-[Saving] [Time 77.21 / 3808.30 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616007097.json is saved. (251 Items)
-[Saving] [Time 47.51 / 3855.81 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616007145.json is saved. (252 Items)
-[Saving] [Time 69.53 / 3925.34 sec] File D:\DATA\JSON\catalog\2\models\models_1616007214.json is saved. (251 Items)
-[Saving] [Time 1.04 / 3926.37 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616007215.json is saved. (251 Items)
-[Saving] [Time 103.34 / 4029.71 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616007318.json is saved. (251 Items)
-[Saving] [Time 10.70 / 4040.41 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616007329.json is saved. (252 Items)
-[Saving] [Time 121.27 / 4161.68 sec] File D:\DATA\JSON\catalog\2\models\models_1616007450.json is saved. (251 Items)
-[Saving] [Time 1.03 / 4162.72 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616007451.json is saved. (251 Items)
-[Saving] [Time 100.39 / 4263.11 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616007552.json is saved. (254 Items)
-[Saving] [Time 37.76 / 4300.87 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616007590.json is saved. (251 Items)
-[Saving] [Time 32.02 / 4332.89 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616007622.json is saved. (254 Items)
-[Saving] [Time 67.79 / 4400.68 sec] File D:\DATA\JSON\catalog\2\models\models_1616007689.json is saved. (251 Items)
-[Saving] [Time 1.04 / 4401.71 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616007690.json is saved. (251 Items)
-[Saving] [Time 4.35 / 4406.06 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616007695.json is saved. (252 Items)
-[Saving] [Time 83.35 / 4489.42 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616007778.json is saved. (251 Items)
-[Saving] [Time 2.03 / 4491.44 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616007780.json is saved. (252 Items)
-[Saving] [Time 55.36 / 4546.80 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616007835.json is saved. (252 Items)
-[Saving] [Time 57.28 / 4604.08 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616007893.json is saved. (251 Items)
-[Saving] [Time 4.91 / 4608.99 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616007898.json is saved. (253 Items)
-[Saving] [Time 30.41 / 4639.40 sec] File D:\DATA\JSON\catalog\2\models\models_1616007928.json is saved. (251 Items)
-[Saving] [Time 1.02 / 4640.41 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616007929.json is saved. (251 Items)
-[Saving] [Time 33.11 / 4673.52 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616007962.json is saved. (253 Items)
-[Saving] [Time 47.65 / 4721.16 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616008010.json is saved. (251 Items)
-[Saving] [Time 55.86 / 4777.02 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616008066.json is saved. (252 Items)
-[Saving] [Time 59.73 / 4836.75 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616008125.json is saved. (252 Items)
-[Saving] [Time 6.09 / 4842.84 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616008132.json is saved. (252 Items)
-[Saving] [Time 8.45 / 4851.29 sec] File D:\DATA\JSON\catalog\2\models\models_1616008140.json is saved. (251 Items)
-[Saving] [Time 1.03 / 4852.32 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616008141.json is saved. (251 Items)
-[Saving] [Time 55.74 / 4908.06 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616008197.json is saved. (253 Items)
-[Saving] [Time 40.60 / 4948.66 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616008237.json is saved. (252 Items)
-[Saving] [Time 9.21 / 4957.87 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616008247.json is saved. (252 Items)
-[Saving] [Time 58.17 / 5016.04 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616008305.json is saved. (252 Items)
-[Saving] [Time 39.40 / 5055.43 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616008344.json is saved. (252 Items)
-[Saving] [Time 13.82 / 5069.25 sec] File D:\DATA\JSON\catalog\2\models\models_1616008358.json is saved. (251 Items)
-[Saving] [Time 1.02 / 5070.27 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616008359.json is saved. (251 Items)
-[Saving] [Time 2.06 / 5072.33 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616008361.json is saved. (252 Items)
-[Saving] [Time 291.99 / 5364.33 sec] File D:\DATA\JSON\catalog\2\models\models_1616008653.json is saved. (251 Items)
-[Saving] [Time 1.02 / 5365.35 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616008654.json is saved. (251 Items)
-[System] [Time 36.40 / 5401.75 sec] Bearer token received.
-[Saving] [Time 38.34 / 5440.09 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616008729.json is saved. (252 Items)
-[Saving] [Time 29.59 / 5469.68 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616008758.json is saved. (253 Items)
-[Saving] [Time 100.42 / 5570.10 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616008859.json is saved. (251 Items)
-[Saving] [Time 29.79 / 5599.89 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616008889.json is saved. (251 Items)
-[Saving] [Time 9.51 / 5609.41 sec] File D:\DATA\JSON\catalog\2\models\models_1616008898.json is saved. (251 Items)
-[Saving] [Time 1.02 / 5610.43 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616008899.json is saved. (251 Items)
-[Saving] [Time 22.03 / 5632.46 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616008921.json is saved. (251 Items)
-[Saving] [Time 46.12 / 5678.59 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616008967.json is saved. (251 Items)
-[Saving] [Time 23.68 / 5702.27 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616008991.json is saved. (254 Items)
-[Saving] [Time 39.55 / 5741.81 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616009031.json is saved. (251 Items)
-[Saving] [Time 4.02 / 5745.83 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616009035.json is saved. (252 Items)
-[Saving] [Time 35.87 / 5781.70 sec] File D:\DATA\JSON\catalog\2\models\models_1616009070.json is saved. (201 Items)
-[Saving] [Time 1.04 / 5782.74 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1616009071.json is saved. (201 Items)
-[Saving] [Time 0.00 / 5782.74 sec] File D:\DATA\JSON\catalog\2\suppliers_prices\supplier_price_1616009071.json is saved. (125 Items)
-[Saving] [Time 1.01 / 5783.75 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_price_1616009072.json is saved. (144 Items)
-[System] [Time 2.02 / 5785.77 sec] Saving entity modified is completed.
+[System] [Time 0.33 / 0.33 sec] Bearer token received.
+[System] [Time 0.25 / 0.58 sec] Entity catalogs created.
+[System] [Time 0.00 / 0.58 sec] Entity catalogs.vendors created.
+[System] [Time 0.00 / 0.58 sec] Entity catalogs.categories created.
+[System] [Time 0.00 / 0.58 sec] Entity catalogs.suppliers created.
+[System] [Time 0.00 / 0.58 sec] Entity catalogs.pricing_profiles created.
+[System] [Time 0.00 / 0.58 sec] Entity catalogs.models created.
+[System] [Time 0.00 / 0.58 sec] Entity catalogs.suppliers_prices created.
+[System] [Time 0.00 / 0.58 sec] Entity catalogs.pricing_profiles_prices created.
+[System] [Time 0.00 / 0.58 sec] Entity catalogs.categories_details created.
+[System] [Time 0.00 / 0.58 sec] Entity catalogs.modified created.
+[System] [Time 0.00 / 0.58 sec] Entity catalogs.models_deleted created.
+[Saving] [Time 0.04 / 0.62 sec] File D:\DATA\JSON\catalog\catalogs.json is saved. (5 Items)
+[Saving] [Time 1.32 / 1.94 sec] File D:\DATA\JSON\catalog\29\vendors.json is saved. (2 Items)
+[Saving] [Time 0.22 / 2.16 sec] File D:\DATA\JSON\catalog\27\vendors.json is saved. (77 Items)
+[Saving] [Time 1.26 / 3.42 sec] File D:\DATA\JSON\catalog\26\vendors.json is saved. (689 Items)
+[Saving] [Time 0.35 / 3.77 sec] File D:\DATA\JSON\catalog\2\vendors.json is saved. (9423 Items)
+[Saving] [Time 1.20 / 4.97 sec] File D:\DATA\JSON\catalog\1\vendors.json is saved. (13405 Items)
+[System] [Time 0.00 / 4.98 sec] Saving entity vendors is completed.
+
+[Saving] [Time 0.30 / 5.28 sec] File D:\DATA\JSON\catalog\29\categories.json is saved. (10 Items)
+[Saving] [Time 1.21 / 6.49 sec] File D:\DATA\JSON\catalog\27\categories.json is saved. (49 Items)
+[Saving] [Time 0.31 / 6.81 sec] File D:\DATA\JSON\catalog\26\categories.json is saved. (556 Items)
+[Saving] [Time 0.75 / 7.56 sec] File D:\DATA\JSON\catalog\2\categories.json is saved. (5583 Items)
+[Saving] [Time 1.25 / 8.81 sec] File D:\DATA\JSON\catalog\1\categories.json is saved. (863 Items)
+[System] [Time 0.00 / 8.81 sec] Saving entity categories is completed.
+
+[Saving] [Time 0.23 / 9.05 sec] File D:\DATA\JSON\catalog\29\suppliers.json is saved. (1 Items)
+[Saving] [Time 1.17 / 10.21 sec] File D:\DATA\JSON\catalog\27\suppliers.json is saved. (1 Items)
+[Saving] [Time 0.26 / 10.47 sec] File D:\DATA\JSON\catalog\26\suppliers.json is saved. (1 Items)
+[Saving] [Time 1.36 / 11.83 sec] File D:\DATA\JSON\catalog\2\suppliers.json is saved. (683 Items)
+[Saving] [Time 0.21 / 12.05 sec] File D:\DATA\JSON\catalog\1\suppliers.json is saved. (14 Items)
+[System] [Time 0.00 / 12.05 sec] Saving entity suppliers is completed.
+
+[Saving] [Time 2.95 / 15.00 sec] File D:\DATA\JSON\catalog\2\pricing_profiles.json is saved. (27 Items)
+[Saving] [Time 1.17 / 16.17 sec] File D:\DATA\JSON\catalog\1\pricing_profiles.json is saved. (3 Items)
+[System] [Time 0.00 / 16.17 sec] Saving entity pricing_profiles is completed.
 
