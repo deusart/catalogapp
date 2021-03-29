@@ -1,39 +1,44 @@
 [System] [Time 0.00 / 0.00 sec] Engine started.
-[System] [Time 0.33 / 0.33 sec] Bearer token received.
-[System] [Time 0.25 / 0.58 sec] Entity catalogs created.
-[System] [Time 0.00 / 0.58 sec] Entity catalogs.vendors created.
-[System] [Time 0.00 / 0.58 sec] Entity catalogs.categories created.
-[System] [Time 0.00 / 0.58 sec] Entity catalogs.suppliers created.
-[System] [Time 0.00 / 0.58 sec] Entity catalogs.pricing_profiles created.
-[System] [Time 0.00 / 0.58 sec] Entity catalogs.models created.
-[System] [Time 0.00 / 0.58 sec] Entity catalogs.suppliers_prices created.
-[System] [Time 0.00 / 0.58 sec] Entity catalogs.pricing_profiles_prices created.
-[System] [Time 0.00 / 0.58 sec] Entity catalogs.categories_details created.
-[System] [Time 0.00 / 0.58 sec] Entity catalogs.modified created.
-[System] [Time 0.00 / 0.58 sec] Entity catalogs.models_deleted created.
-[Saving] [Time 0.04 / 0.62 sec] File D:\DATA\JSON\catalog\catalogs.json is saved. (5 Items)
-[Saving] [Time 1.32 / 1.94 sec] File D:\DATA\JSON\catalog\29\vendors.json is saved. (2 Items)
-[Saving] [Time 0.22 / 2.16 sec] File D:\DATA\JSON\catalog\27\vendors.json is saved. (77 Items)
-[Saving] [Time 1.26 / 3.42 sec] File D:\DATA\JSON\catalog\26\vendors.json is saved. (689 Items)
-[Saving] [Time 0.35 / 3.77 sec] File D:\DATA\JSON\catalog\2\vendors.json is saved. (9423 Items)
-[Saving] [Time 1.20 / 4.97 sec] File D:\DATA\JSON\catalog\1\vendors.json is saved. (13405 Items)
-[System] [Time 0.00 / 4.98 sec] Saving entity vendors is completed.
+[System] [Time 0.15 / 0.15 sec] Bearer token received.
+[System] [Time 0.13 / 0.28 sec] Entity catalogs created.
+[System] [Time 0.00 / 0.28 sec] Entity catalogs.vendors created.
+[System] [Time 0.00 / 0.28 sec] Entity catalogs.categories created.
+[System] [Time 0.00 / 0.28 sec] Entity catalogs.suppliers created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.pricing_profiles created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.models created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.suppliers_prices created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.pricing_profiles_prices created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.categories_details created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.modified created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.models_deleted created.
+[Saving] [Time 0.00 / 0.29 sec] File D:\DATA\JSON\catalog\catalogs.json is saved. (5 Items)
+[Trace] [Time 1.17 / 1.46 sec] Successfully created the directory D:\DATA\JSON\catalog\29\vendors\ 
+[Saving] [Time 0.00 / 1.46 sec] File D:\DATA\JSON\catalog\29\vendors\vendors.json is saved. (2 Items)
+[Trace] [Time 0.17 / 1.63 sec] Successfully created the directory D:\DATA\JSON\catalog\27\vendors\ 
+[Saving] [Time 0.00 / 1.63 sec] File D:\DATA\JSON\catalog\27\vendors\vendors.json is saved. (77 Items)
+[Trace] [Time 1.18 / 2.81 sec] Successfully created the directory D:\DATA\JSON\catalog\26\vendors\ 
+[Saving] [Time 0.00 / 2.81 sec] File D:\DATA\JSON\catalog\26\vendors\vendors.json is saved. (693 Items)
+[Trace] [Time 0.40 / 3.21 sec] Successfully created the directory D:\DATA\JSON\catalog\2\vendors\ 
+[Saving] [Time 0.02 / 3.23 sec] File D:\DATA\JSON\catalog\2\vendors\vendors.json is saved. (9451 Items)
+[Trace] [Time 0.64 / 3.87 sec] Successfully created the directory D:\DATA\JSON\catalog\1\vendors\ 
+[Saving] [Time 0.03 / 3.90 sec] File D:\DATA\JSON\catalog\1\vendors\vendors.json is saved. (13470 Items)
+[System] [Time 0.00 / 3.90 sec] Saving entity vendors is completed.
 
-[Saving] [Time 0.30 / 5.28 sec] File D:\DATA\JSON\catalog\29\categories.json is saved. (10 Items)
-[Saving] [Time 1.21 / 6.49 sec] File D:\DATA\JSON\catalog\27\categories.json is saved. (49 Items)
-[Saving] [Time 0.31 / 6.81 sec] File D:\DATA\JSON\catalog\26\categories.json is saved. (556 Items)
-[Saving] [Time 0.75 / 7.56 sec] File D:\DATA\JSON\catalog\2\categories.json is saved. (5583 Items)
-[Saving] [Time 1.25 / 8.81 sec] File D:\DATA\JSON\catalog\1\categories.json is saved. (863 Items)
-[System] [Time 0.00 / 8.81 sec] Saving entity categories is completed.
+[Saving] [Time 1.18 / 5.07 sec] File D:\DATA\JSON\catalog\29\dictionaries\categories.json is saved. (10 Items)
+[Saving] [Time 0.29 / 5.36 sec] File D:\DATA\JSON\catalog\27\dictionaries\categories.json is saved. (50 Items)
+[Saving] [Time 1.20 / 6.56 sec] File D:\DATA\JSON\catalog\26\dictionaries\categories.json is saved. (557 Items)
+[Saving] [Time 0.35 / 6.91 sec] File D:\DATA\JSON\catalog\2\dictionaries\categories.json is saved. (5584 Items)
+[Saving] [Time 1.24 / 8.14 sec] File D:\DATA\JSON\catalog\1\dictionaries\categories.json is saved. (864 Items)
+[System] [Time 0.00 / 8.15 sec] Saving entity categories is completed.
 
-[Saving] [Time 0.23 / 9.05 sec] File D:\DATA\JSON\catalog\29\suppliers.json is saved. (1 Items)
-[Saving] [Time 1.17 / 10.21 sec] File D:\DATA\JSON\catalog\27\suppliers.json is saved. (1 Items)
-[Saving] [Time 0.26 / 10.47 sec] File D:\DATA\JSON\catalog\26\suppliers.json is saved. (1 Items)
-[Saving] [Time 1.36 / 11.83 sec] File D:\DATA\JSON\catalog\2\suppliers.json is saved. (683 Items)
-[Saving] [Time 0.21 / 12.05 sec] File D:\DATA\JSON\catalog\1\suppliers.json is saved. (14 Items)
-[System] [Time 0.00 / 12.05 sec] Saving entity suppliers is completed.
+[Saving] [Time 0.13 / 8.28 sec] File D:\DATA\JSON\catalog\29\dictionaries\suppliers.json is saved. (1 Items)
+[Saving] [Time 1.14 / 9.42 sec] File D:\DATA\JSON\catalog\27\dictionaries\suppliers.json is saved. (1 Items)
+[Saving] [Time 0.15 / 9.57 sec] File D:\DATA\JSON\catalog\26\dictionaries\suppliers.json is saved. (1 Items)
+[Saving] [Time 0.23 / 9.80 sec] File D:\DATA\JSON\catalog\2\dictionaries\suppliers.json is saved. (685 Items)
+[Saving] [Time 1.15 / 10.95 sec] File D:\DATA\JSON\catalog\1\dictionaries\suppliers.json is saved. (15 Items)
+[System] [Time 0.00 / 10.95 sec] Saving entity suppliers is completed.
 
-[Saving] [Time 2.95 / 15.00 sec] File D:\DATA\JSON\catalog\2\pricing_profiles.json is saved. (27 Items)
-[Saving] [Time 1.17 / 16.17 sec] File D:\DATA\JSON\catalog\1\pricing_profiles.json is saved. (3 Items)
-[System] [Time 0.00 / 16.17 sec] Saving entity pricing_profiles is completed.
+[Saving] [Time 2.86 / 13.81 sec] File D:\DATA\JSON\catalog\2\dictionaries\pricing_profiles.json is saved. (27 Items)
+[Saving] [Time 0.25 / 14.06 sec] File D:\DATA\JSON\catalog\1\dictionaries\pricing_profiles.json is saved. (3 Items)
+[System] [Time 0.00 / 14.06 sec] Saving entity pricing_profiles is completed.
 
