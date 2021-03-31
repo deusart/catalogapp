@@ -88,13 +88,13 @@ class Modified(Entity):
                 self.engine.save_json(path_models_details, models_details, 'models_details', True)
                 models_details = {}
             if len(suppliers_prices) > 250:
-                self.engine.save_json(path_suppliers_prices, suppliers_prices, 'supplier_price', True)               
+                self.engine.save_json(path_suppliers_prices, suppliers_prices, 'suppliers_prices', True)               
                 suppliers_prices  = {}                
             if len(pricing_profiles_prices) > 250:
-                self.engine.save_json(path_pricing_profiles_prices, pricing_profiles_prices, 'pricing_profiles_price', True)
+                self.engine.save_json(path_pricing_profiles_prices, pricing_profiles_prices, 'pricing_profiles_prices', True)
                 pricing_profiles_prices = {}
 
         self.engine.save_json(path_models, models, 'models', True)
         self.engine.save_json(path_models_details, models_details, 'models_details', True)
-        self.engine.save_json(path_suppliers_prices, suppliers_prices, 'supplier_price', True)               
-        self.engine.save_json(path_pricing_profiles_prices, pricing_profiles_prices, 'pricing_profiles_price', True)
+        self.engine.save_json(path_suppliers_prices, suppliers_prices, 'suppliers_prices', True)               
+        self.engine.save_json(path_pricing_profiles_prices, pricing_profiles_prices, 'pricing_profiles_prices', True)
