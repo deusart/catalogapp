@@ -1,15 +1,15 @@
 [System] [Time 0.00 / 0.00 sec] Engine started.
-[System] [Time 0.36 / 0.36 sec] Bearer token received.
-[System] [Time 0.23 / 0.59 sec] Entity catalogs created.
-[System] [Time 0.00 / 0.59 sec] Entity catalogs.vendors created.
-[System] [Time 0.00 / 0.59 sec] Entity catalogs.categories created.
-[System] [Time 0.00 / 0.59 sec] Entity catalogs.suppliers created.
-[System] [Time 0.00 / 0.59 sec] Entity catalogs.pricing_profiles created.
-[System] [Time 0.00 / 0.59 sec] Entity catalogs.models created.
-[System] [Time 0.00 / 0.59 sec] Entity catalogs.suppliers_prices created.
-[System] [Time 0.00 / 0.59 sec] Entity catalogs.pricing_profiles_prices created.
-[System] [Time 0.00 / 0.59 sec] Entity catalogs.categories_details created.
-[System] [Time 0.00 / 0.59 sec] Entity catalogs.modified created.
-[System] [Time 0.00 / 0.59 sec] Entity catalogs.models_deleted created.
-[Saving] [Time 97.14 / 97.73 sec] File D:\DATA\JSON\catalog\2\pricing_profiles_prices\pricing_profiles_prices_1617135615.json is saved. (256 Items)
-[Error] [Time 60.55 / 158.28 sec] Request error (Connection aborted., ConnectionAbortedError(10053, An established connection was aborted by the software in your host machine, None, 10053, None)). Empty Return.
+[System] [Time 0.14 / 0.14 sec] Bearer token received.
+[System] [Time 0.15 / 0.29 sec] Entity catalogs created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.vendors created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.categories created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.suppliers created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.pricing_profiles created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.models created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.suppliers_prices created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.pricing_profiles_prices created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.categories_details created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.modified created.
+[System] [Time 0.00 / 0.29 sec] Entity catalogs.models_deleted created.
+[Saving] [Time 1.90 / 2.19 sec] File D:\DATA\JSON\catalog\2\models\models_1617373336.json is saved. (1 Items)
+[Saving] [Time 1.07 / 3.26 sec] File D:\DATA\JSON\catalog\2\models_details\models_details_1617373337.json is saved. (1 Items)

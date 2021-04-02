@@ -60,6 +60,6 @@ class Entity(object):
         self.url += f'/{entity_id}'
         response = self.engine.get_response(self.url)
         data = {}
-        data['catalogId'] = catalog_id        
+        response['catalogId'] = catalog_id        
         data[response['id']] = response
         self.engine.save_json(self.path, data, self.entity, self.timestamp)

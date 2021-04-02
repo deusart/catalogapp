@@ -1,8 +1,27 @@
+from catalogapp.cappengine.templates.formats import models_details
 from catalogapp.base import Entity
 
 class Models(Entity):
     def _init_custom(self):
         self.partition = 20
+
+    def store_id(self, catalog_id, entity_id):
+
+        self.url_details_template = self.get_template('models_details', 'url')
+        self.path_details_template = self.get_template('models_details', 'path')
+        self.format_models = self.get_template('models', 'format')
+        self.format_models_details = self.get_template('models_details', 'format')
+
+        path_models = self.path_template % (catalog_id)
+        path_models_details = self.path_details_template % (catalog_id)
+
+        url_models = self.url_details_template % (catalog_id, entity_id)
+        response = self.engine.get_response(url_models)            
+        
+        models = self.format_models(response, catalog_id)
+        models_details = self.format_models_details(response, catalog_id)
+        self.engine.save_json(path_models, models, 'models', True)
+        self.engine.save_json(path_models_details, models_details, 'models_details', True)
 
 class Deleted(Entity):
     def _init_defaults(self):
@@ -35,4 +54,3 @@ class Deleted(Entity):
             self.data = list(dict.fromkeys(self.data))
             self.engine.save_json(self.path, self.data, 'models_deleted', 'False')
             self.entities[catalog_id] = list(self.data)
-        
